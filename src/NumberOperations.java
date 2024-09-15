@@ -6,16 +6,16 @@ public class NumberOperations {
 
         ArrayList<Number> numbers = new ArrayList<>();
 
-        numbers.add(10);  // int
-        numbers.add(20.5);  // double
-        numbers.add(30);  // int
-        numbers.add(40.7);  // double
-        numbers.add(50);  // int
-        numbers.add(60.3);  // double
-        numbers.add(70);  // int
-        numbers.add(80.1);  // double
-        numbers.add(90);  // int
-        numbers.add(100.9);  // double
+        numbers.add(10); 
+        numbers.add(20.5); 
+        numbers.add(30); 
+        numbers.add(40.7);
+        numbers.add(50);
+        numbers.add(60.3);
+        numbers.add(70);
+        numbers.add(80.1);
+        numbers.add(90);
+        numbers.add(100.9);
 
         // 1
         int intNumber = 1;
@@ -95,7 +95,6 @@ public class NumberOperations {
         System.out.println("\nНайбільше число зі списку: " + largest);
     }
 
-    // Метод для знаходження найбільшого числа
     public static Number findLargestNumber(ArrayList<Number> numbers) {
         if (numbers.isEmpty()) {
             return null;
